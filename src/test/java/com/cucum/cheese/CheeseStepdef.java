@@ -21,8 +21,7 @@ public class CheeseStepdef{
 	@Before
 	public void openBrowser() {
 	System.setProperty("webdriver.chrome.driver",
-			"C:\\Users\\hyder\\Downloads\\webdrivers\\"
-			+ "chromedriver_win32\\chromedriver.exe");
+			"C:\\Users\\hyder\\Downloads\\chromedriver.exe");
 	driver = new ChromeDriver();
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
